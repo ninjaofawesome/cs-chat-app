@@ -1,0 +1,65 @@
+body {
+  background-color: #00a0b0;
+  color: #f4ead5;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700; }
+
+ul {
+  padding-left: 0; }
+
+input {
+  border: 1px solid #edc951; }
+
+.title {
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align: center; }
+  .title.name {
+    font-size: 2em;
+    padding: 20px 0 10px 0;
+    color: #6a4a3c; }
+
+.chat-box {
+  margin: 2%;
+  border-radius: 20px;
+  height: 400px;
+  overflow: hidden;
+  background-color: #edc951; }
+
+.chat-box {
+  width: 100%; }
+  .chat-box .chat-line {
+    list-style-type: none;
+    padding-left: 40px;
+    vertical-align: middle;
+    color: #6a4a3c;
+    padding: 7.5px 15px; }
+    .chat-box .chat-line:nth-child(odd) {
+      background-color: #cc333f;
+      color: #edc951; }
+
+.text-box {
+  color: #cc333f;
+  padding-left: 5%; }
+
+.typing-area {
+  background-color: #f4ead5;
+  width: 85%;
+  padding: 1% 0;
+  display: inline; }
+
+.submit-button {
+  color: #cc333f;
+  background-color: #edc951;
+  display: inline;
+  padding: 1.5% 2%; }
