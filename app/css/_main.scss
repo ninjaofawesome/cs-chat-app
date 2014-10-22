@@ -65,9 +65,11 @@ input{
 
 .typing-area{
   background-color: $cream;
-  width: 85%;
+  width: 80%;
+  margin-left: 5%;
   padding: 1% 0;
   display: inline;
+  color: red;
 }
 
 .submit-button{
